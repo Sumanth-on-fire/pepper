@@ -1,0 +1,6 @@
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+pydantic>=1.10
+# supabase client - replace with the preferred package (e.g. supabase, supabase-py)
+supabase
