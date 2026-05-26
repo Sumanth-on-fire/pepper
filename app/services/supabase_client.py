@@ -1,6 +1,6 @@
 import logging
 from typing import Optional
-from app.core import singleton
+from app.core.singleton import singleton
 from ..core.config import Settings
 from supabase import create_client, Client
 

@@ -29,7 +29,7 @@ app.add_middleware(RequestIDMiddleware)
 app.include_router(upload_router, prefix="/api/v1/upload", tags=["upload"])
 app.include_router(signup_router, prefix="/api/v1/signup", tags=["signup"])
 app.include_router(signin_router, prefix="/api/v1/signin", tags=["signin"])
-app.include_router(signout_router, perfix="/api/v1/signout", tags=["signout"])
+app.include_router(signout_router, prefix="/api/v1/signout", tags=["signout"])
 app.include_router(create_workspace_router, prefix="/api/v1/create_workspace", tags=["workspace"])
 
 @app.get("/health")
