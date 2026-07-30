@@ -1,0 +1,40 @@
+# Virtual environment
+venv
+.venv
+
+# Python cache and bytecode
+**/__pycache__
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+
+# fastembed cache
+**/fastembed_cache
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# MyPy cache
+.mypy_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Misc
+.DS_Store
+*.sqlite3
+**/config.py
