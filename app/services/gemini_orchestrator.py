@@ -86,8 +86,8 @@ class AgentConfig:
     max_consecutive_empty_evidence: int = 2
     request_timeout: int = 30
     temperature: float = 0.2
-    max_tokens_reasoning: int = 1024
-    max_tokens_format: int = 512
+    max_tokens_reasoning: int = 4096
+    max_tokens_format: int = 2048
     gemini_model: str = "gemini-1.5-flash"
     groq_model: str = "llama-3.3-70b-versatile"
     verify_ssl: bool = True
